@@ -30,3 +30,4 @@ let fn1:fnstr = function(x,y){
     return String(res)
 }
 console.log(fn1(124,83));
+// test new commit
