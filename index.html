@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="dist/index.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div></div>
+    <button>Батон</button>
+    <canvas></canvas>
+    <script type="text/javascript">
+		// скрипт форматирования холста и начального положения монитора.  
+		// Холст форрматируется в соответсствии с размерами экрана, но можно указать в ручную (без px)
+		document.querySelector('canvas').width=window.innerWidth-50;	// ширина холста (можно в ручную в пикселях)
+		document.querySelector('canvas').height=window.innerHeight-100;	// высота холста (можно в ручную в пикселях)
+		document.querySelector('div').style.top='120px'; 				// расположение монитора при старте 'y'
+		document.querySelector('div').style.left=(document.querySelector('canvas').width-600)+'px';// расположение монитора при старте 'x'
+	</script>
+</body>
+</html>
