@@ -1,4 +1,4 @@
-import { getRotate, user001 } from "./modules";
+import { getRotate, user001 } from "./modules.js";
 console.log(user001);
 let plot = {
     x: 50,
