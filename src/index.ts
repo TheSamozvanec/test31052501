@@ -44,3 +44,13 @@ div?.addEventListener('mouseover', function(ev){
 div?.addEventListener('mouseout' , function(ev){
     div.classList.remove('tog')
 });
+div?.addEventListener('click',function(ev){
+    div.classList.toggle('color')
+});
+let div01=document.createElement('div');
+div01.style.position='relative';
+div01.textContent='div'
+div01.style.top='300px';
+div01.style.left='600px';
+document.body.appendChild(div01);
+//text

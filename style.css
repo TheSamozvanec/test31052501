@@ -12,3 +12,6 @@ canvas{
 div.tog{
     transform: scale(0.5);
 }
+div.color{
+    background: whitesmoke;
+}
