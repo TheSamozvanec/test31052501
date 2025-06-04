@@ -114,20 +114,6 @@
   "include": ["src"],
   "tsc-alias": {
     "verbose": false,
-    "resolveFullPaths": true,
-    "replacers": {
-      "exampleReplacer": {
-        "enabled": true,
-        "file": "./exampleReplacer.js"
-      },
-      "otherReplacer": {
-        "enabled": true,
-        "file": "./otherReplacer.js"
-      }
-    },
-    "fileExtensions": {
-      "inputGlob": "{js,jsx,mjs}",
-      "outputCheck": ["js", "json", "jsx", "mjs"]
-    }
+    "resolveFullPaths": true
   }
 }

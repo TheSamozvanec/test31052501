@@ -48,4 +48,9 @@ div01.textContent = 'div';
 div01.style.top = '300px';
 div01.style.left = '600px';
 document.body.appendChild(div01);
-//text
+// test 
+let peremennaya = 1000;
+// это тест
+console.log(peremennaya);
+let fn20 = function (n, m) { return n + m; };
+console.log(fn20(peremennaya, 150));
